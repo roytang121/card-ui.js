@@ -1,0 +1,42 @@
+.card{
+	width:100%;
+	min-height: 300px;
+	background: #fff;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 12px;
+	border-radius: 3px;
+	opacity: 0; /*for flow-in*/
+}
+
+.card .card-content{
+	padding:25px 35px;
+	margin:0px;
+}
+
+.card .card-content p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	width:90%;
+}
+
+/**animation style**/
+
+.flow-in{
+	-webkit-animation:ani-flow-in 0.8s;
+	-webkit-transform-origin: 0% 100%;
+	opacity: 1;
+}
+
+@-webkit-keyframes ani-flow-in
+{
+	from {-webkit-transform: translateY(100px) rotateX(-90deg) scaleX(0.95); }
+	to {-webkit-transform: translateY(0px) rotateX(0deg) scaleX(1); }
+}
+@-webkit-keyframes ani-leaf
+{
+	0%{	-webkit-transform: rotateZ(0deg);}
+	20%{ -webkit-transform: rotateZ(10deg);}
+	30% { -webkit-transform: rotateZ(5deg); }
+	50%{ -webkit-transform: rotateZ(25deg);}
+	70%{ -webkit-transform: rotateZ(0deg);}
+}
