@@ -16,7 +16,7 @@ copy css/ and js/ directories into your projects
 </div>
 ```
 
-##On
+##OnScroll animation
 on the bottom of your .html file, add the following script to enable flow-in animation for first n cards:
 
 ```javascript
