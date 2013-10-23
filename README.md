@@ -5,24 +5,24 @@ card-ui.js
 copy css/ and js/ directories into your projects
 
 ##Usage
-'''html
+```html
 <div class="card">
 	<div class="card-content">
-		<h1>RobustImageView</h1>
+		<h1>Title</h1>
 		<p>
-			Originally a free mobile app to obtain updatest HKUST courses' registration data. Now developed to a deriative website for course rating and review.
+			An implementation of Google's card UI by javascript. Default supporting onScroll animation.
 		</p>
 	</div>
 </div>
-'''
+```
 
 ##On
 on the bottom of your .html file, add the following script to enable flow-in animation for first n cards:
 
-'''javascript
+```javascript
 <script type="text/javascript">
 /*init first two card*/
 $(".card").slice(0,2).addClass("flow-in");
 
 </script>
-'''
+```
