@@ -1,6 +1,6 @@
 card-ui.js
 ===============================
-![screencap](http://farm8.staticflickr.com/7318/10434105763_a0e935f30f_z.jpg)
+![screencap](https://www.dropbox.com/s/fu05knwn6v3howp/Screenshot_2014-03-13-23-17-29.png)
 ##Installation
 copy css/ and js/ directories into your projects
 
